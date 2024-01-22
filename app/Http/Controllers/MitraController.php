@@ -86,6 +86,7 @@ class MitraController extends Controller
         'user_id' => $currentUser->id,
         'id_users' => $currentUser->id,
         'id_kunci' => $gkuncis->id_kunci, // Set the foreign key value
+        'isDone' => 0,
     ]);
 
     // Save additional fields

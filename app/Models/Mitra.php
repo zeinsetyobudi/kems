@@ -27,6 +27,7 @@ class Mitra extends Model
         'id_sentral',
         'key_combinations',
         'image',
+        'isDone',
         'approve',
         'created_at',
     ];
